@@ -39,9 +39,9 @@ while  searching:
     new_bot.search(song)
 
     print('\n')
-    an_try = input('🤖Would you like to search again?: [Yes/No] ')
+    an_try = input('Would you like to search again?: [Yes/No] ')
     if an_try.lower().startswith('n'):
-        print('🤖...🖐 Bye!!')
+        print('... Bye!!')
         searching = False
         break
     else:
