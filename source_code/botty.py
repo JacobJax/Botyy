@@ -28,11 +28,12 @@ class Dwnl_bot():
 
 # functionality
 searching = True
-print('\tHi there, Welcome to Botty🤖')
-print('\t[Manual]: Botty is a web bot that serches you a song from \'https://www.mp3juices.cc/\' \n Once searched, you can proceed to download or stream from the site')
+print('\n')
+print('Hi there, Welcome to Botty')
+print('[Manual]: Botty is a web bot that serches you a song from \'https://www.mp3juices.cc/\' \n Once searched, you can proceed to download or stream from the site')
 
 while  searching:
-    song = input('🤖Which song would you like to search: ')
+    song = input('Which song would you like to search: ')
     new_bot = Dwnl_bot()
     new_bot.get_to_site()
     new_bot.search(song)
