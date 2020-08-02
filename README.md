@@ -1,7 +1,7 @@
 # BOTTY🤖
 
 ## Description
-**Botty** is a web automatio bot utilising [selenium webdriver](https://www.selenium.dev/documentation/en/webdriver/) to search for a song
+**Botty** is a web automation bot utilising [selenium webdriver](https://www.selenium.dev/documentation/en/webdriver/) to search for a song on [mp3juices.cc](https://www.mp3juices.cc/)
 
 ## Requirements
 * Mozzila browser
